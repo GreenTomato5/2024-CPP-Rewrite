@@ -7,6 +7,9 @@
 #include <frc/Encoder.h>
 #include <ctre/phoenix6/TalonFX.hpp>
 #include <units/units.h>
+#include <units/angle.h> 
+#include <units/velocity.h> 
+
 
 class ShooterIOReal : protected ShooterIO {
  public:
